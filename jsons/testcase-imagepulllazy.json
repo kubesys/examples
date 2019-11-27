@@ -1,0 +1,69 @@
+{
+    "apiVersion": "cloudplus.io/v1alpha3",
+    "kind": "TestCase",
+    "metadata": {
+        "name": "image-pull-lazy"
+    },
+    "spec": {
+        "duration": 60,
+        "testcases": [
+            {
+                "name": "lazy-image-pull",
+                "pods": [
+                    {
+                        "apiVersion": "v1",
+                        "kind": "Pod",
+                        "metadata": {
+                            "name": "pull-image-lazy",
+                            "namespace": "default"
+                        },
+                        "spec": {
+                            "containers": [
+                                {
+                                    "name": "image-pull-test-case-lazy",
+                                    "image": "image-pull-test-case:latest",
+                                    "imagePullPolicy": "Never",
+                                    "volumeMounts": [
+                                        {
+                                            "name": "docker-sock",
+                                            "mountPath": "/var/run/docker.sock"
+                                        }
+                                    ],
+                                    "env": [
+                                        {
+                                            "name": "PRE_RUN_IMAGE",
+                                            "value": "registry.cn-hangzhou.aliyuncs.com/cloudplus-demo/write-heavy"
+                                        },
+                                        {
+                                            "name": "TEST_IMAGE",
+                                            "value": "172.17.104.192:5000/test-image:extra"
+                                        },
+                                        {
+                                            "name": "GATEWAY",
+                                            "value": "http://172.17.104.190:9091"
+                                        },
+                                        {
+                                            "name": "WAIT_INTERVAL",
+                                            "value": "20"
+                                        }
+                                    ],
+                                    "securityContext": {
+                                        "privileged": true
+                                    }
+                                }
+                            ],
+                            "volumes": [
+                                {
+                                    "name": "docker-sock",
+                                    "hostPath": {
+                                        "path": "/var/run/docker.sock"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}
