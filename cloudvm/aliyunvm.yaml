@@ -1,0 +1,21 @@
+{
+    "apiVersion": "cloudplus.io/v1alpha3",
+    "kind": "AliyunVM",
+    "metadata": {
+        "name": "instance",
+        "namespace": "default"
+    },
+    "spec": {
+        "data": {
+            "lifecycle": {
+                "createinstance": {
+                    "imageid": "centos_6_10_x64_20G_alibase_20200103.vhd",
+                    "instancetype": "ecs.t5-lc2m1.nano",
+                    "regionId": "cn-hangzhou"
+                }
+            }
+        },
+        "nodeName": "cloud.ali3",
+        "type": "AliyunVM"
+    }
+}
