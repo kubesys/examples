@@ -1,0 +1,19 @@
+{
+    "apiVersion": "cloudplus.io/v1alpha3",
+    "kind": "AliyunVM",
+    "metadata": {
+        "name": "instance",
+        "namespace": "default"
+    },
+    "spec": {
+        "data": {
+            "lifecycle": {
+               "startinstance": {
+                  "instanceid": "string"
+                }
+            }
+        },
+        "nodeName": "cloud.ali3",
+        "type": "AliyunVM"
+    }
+}
