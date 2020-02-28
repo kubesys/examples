@@ -1,0 +1,17 @@
+{
+  "apiVersion": "cloudplus.io/v1alpha3",
+  "kind": "VirtualMachine",
+  "metadata": {
+    "name": "magic1"
+  },
+  "spec": {
+    "lifecycle": {
+      "plugNIC": {
+        "type": "bridge",
+        "source": "cni0",
+        "live": true,
+        "config": true
+      }
+    }
+  }
+}

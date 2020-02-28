@@ -1,0 +1,18 @@
+{
+  "apiVersion": "cloudplus.io/v1alpha3",
+  "kind": "VirtualMachineNetwork",
+  "metadata": {
+    "name": "nettt",
+    "labels": {
+      "host": "node22"
+    }
+  },
+  "spec": {
+    "image": "CentOS7",
+    "nodeName": "node22",
+    "lifecycle": {
+      "deleteSwitch": {
+      }
+    }
+  }
+}

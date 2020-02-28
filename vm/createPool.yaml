@@ -1,0 +1,20 @@
+{
+  "apiVersion": "cloudplus.io/v1alpha3",
+  "kind": "VirtualMachinePool",
+  "metadata": {
+    "name": "default",
+    "labels": {
+      "host": "vm.node22"
+    }
+  },
+  "spec": {
+    "nodeName": "vm.node22",
+    "lifecycle": {
+      "createPool": {
+          "type": "dir",
+          "target": "/var/lib/libvirt/images"
+      }
+    }
+  }
+}
+

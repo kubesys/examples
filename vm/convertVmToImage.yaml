@@ -1,0 +1,14 @@
+{
+  "apiVersion": "cloudplus.io/v1alpha3",
+  "kind": "VirtualMachine",
+  "metadata": {
+    "name": "54321"
+  },
+  "spec": {
+    "image": "CentOS7",
+    "lifecycle": {
+      "convertVMToImage": {
+      }
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "apiVersion": "cloudplus.io/v1alpha3",
+  "kind": "VirtualMachine",
+  "metadata": {
+    "name": "magic1",
+    "labels": {
+      "host": "node31"
+    }
+  },
+  "spec": {
+    "nodeName": "node31",
+    "image": "CentOS7",
+    "lifecycle": {
+      "stopVMForce": {
+      }
+    }
+  }
+}

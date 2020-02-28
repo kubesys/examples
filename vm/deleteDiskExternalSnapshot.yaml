@@ -1,0 +1,22 @@
+{
+  "apiVersion": "cloudplus.io/v1alpha3",
+  "kind": "VirtualMachineDiskSnapshot",
+  "metadata": {
+    "name": "disktest4.1",
+    "labels": {
+        "host": "vm.node22"
+    } 
+  },
+  "spec": {
+    "image": "CentOS7",
+    "nodeName": "vm.node22",
+    "lifecycle": {
+      "deleteDiskExternalSnapshot": {
+        "type": "dir",
+        "pool": "pooltest2",
+        "vol": "disktest4"
+      }
+    }
+  }
+}
+

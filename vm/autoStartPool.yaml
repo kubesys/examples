@@ -1,0 +1,14 @@
+{
+  "apiVersion": "cloudplus.io/v1alpha3",
+  "kind": "VirtualMachinePool",
+  "metadata": {
+    "name": "poola"
+  },
+  "spec": {
+    "lifecycle": {
+      "autoStartPool": {
+      }
+    }
+  }
+}
+

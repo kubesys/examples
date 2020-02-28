@@ -1,0 +1,18 @@
+{
+  "apiVersion": "cloudplus.io/v1alpha3",
+  "kind": "VirtualMachine",
+  "metadata": {
+    "name": "ttt1"
+  },
+  "spec": {
+    "image": "CentOS7",
+    "lifecycle": {
+      "createAndStartVMFromImage": {
+        "original": "skywind11",
+        "memory": "2048",
+        "vcpus": "2",
+        "file": "/var/lib/libvirt/images/ttt1.qcow2"
+      }
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "apiVersion": "cloudplus.io/v1alpha3",
+  "kind": "VirtualMachineNetwork",
+  "metadata": {
+    "name": "net",
+    "labels": {
+      "host": "node30"
+    }
+  },
+  "spec": {
+    "nodeName": "node30",
+    "lifecycle": {
+      "createSwitch": {
+        "subnet": "192.168.5.0/24"
+      }
+    }
+  }
+}

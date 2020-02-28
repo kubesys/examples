@@ -1,0 +1,18 @@
+{
+  "apiVersion": "cloudplus.io/v1alpha3",
+  "kind": "VirtualMachineDiskImage",
+  "metadata": {
+    "name": "abc",
+    "labels": {
+        "host": "vm.node30"
+    }
+  },
+  "spec": {
+    "image": "CentOS7",
+    "nodeName": "node30",
+    "lifecycle": {
+      "convertVmDiskImageToVmDisk": {
+      }
+    }
+  }
+}
