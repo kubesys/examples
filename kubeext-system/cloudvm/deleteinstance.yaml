@@ -1,0 +1,17 @@
+{
+    "apiVersion": "cloudplus.io/v1alpha3",
+    "kind": "AliyunVM",
+    "metadata": {
+        "name": "instance",
+        "namespace": "default"
+    },
+    "spec": {
+        "lifecycle": {
+                    "deleteInstanceRequest": {
+                        "instanceId": "i-bp1dkdcnxsz2p5umt53k"
+                    }
+                },
+        "nodeName": "cloud.ali3",
+        "type": "AliyunVM"
+    }
+}
