@@ -1,0 +1,24 @@
+{
+    "apiVersion": "cloudplus.io/v1alpha3",
+    "kind": "TencentVM",
+    "metadata": {
+        "name": "instance",
+        "namespace": "default",
+        "labels": {
+            "accountId": "tencent-cvm-001"
+         }
+    },
+    "spec": {
+            "lifecycle": {
+                "runInstancesRequest": {
+                    "placement": {
+                       "zone": "ap-beijing-1"
+                    },
+                    "imageId": "img-9qabwvbn",
+                    "instanceType": "SA1.SMALL1"
+                }
+        },
+        "nodeName": "cloud.ali3",
+        "type": "TencentVM"
+    }
+}

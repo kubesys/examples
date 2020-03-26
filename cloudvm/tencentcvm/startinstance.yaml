@@ -1,20 +1,20 @@
 {
     "apiVersion": "cloudplus.io/v1alpha3",
-    "kind": "AliyunVM",
+    "kind": "TencentVM",
     "metadata": {
         "name": "instance",
         "namespace": "default",
         "labels": {
-            "accountId": "aliyun-ecs-001"
+            "accountId": "tencent-cvm-001"
          }
     },
     "spec": {
         "lifecycle": {
-                    "startInstanceRequest": {
-                        "instanceId": "i-bp1dkdcnxsz2p5umt53k"
+                    "startInstancesRequest": {
+                        "instanceIds": ["ins-d711ll8l"]
                     }
                 },
         "nodeName": "cloud.ali3",
-        "type": "AliyunVM"
+        "type": "TencentVM"
     }
 }

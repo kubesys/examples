@@ -3,7 +3,7 @@
     "kind": "AliyunVM",
     "metadata": {
         "name": "instance",
-        "namespace": "default"，
+        "namespace": "default",
         "labels": {
             "accountId": "aliyun-ecs-001"
          }

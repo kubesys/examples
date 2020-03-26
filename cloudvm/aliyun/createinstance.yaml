@@ -3,20 +3,18 @@
     "kind": "AliyunVM",
     "metadata": {
         "name": "instance",
-        "namespace": "default"，
+        "namespace": "default",
         "labels": {
             "accountId": "aliyun-ecs-001"
          }
     },
     "spec": {
-        "data": {
             "lifecycle": {
                 "createinstance": {
                     "imageid": "centos_6_10_x64_20G_alibase_20200103.vhd",
                     "instancetype": "ecs.t5-lc2m1.nano",
                     "regionId": "cn-hangzhou"
                 }
-            }
         },
         "nodeName": "cloud.ali3",
         "type": "AliyunVM"
