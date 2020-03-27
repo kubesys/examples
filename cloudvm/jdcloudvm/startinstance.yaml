@@ -1,0 +1,21 @@
+{
+    "apiVersion": "cloudplus.io/v1alpha3",
+    "kind": "JDCloudVM",
+    "metadata": {
+        "name": "instance",
+        "namespace": "default",
+        "labels": {
+            "accountId": "jdcloud-vm-001"
+         }
+    },
+    "spec": {
+        "lifecycle": {
+                "startInstanceRequest": {
+                        "instanceId": "i-qvy8rmsuww",
+                        "regionId": "cn-east-2"
+                }
+        },
+        "nodeName": "cloud.ali3",
+        "type": "JDCloudVM"
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "apiVersion": "cloudplus.io/v1alpha3",
+    "kind": "BaiduVM",
+    "metadata": {
+        "name": "instance",
+        "namespace": "default",
+        "labels": {
+            "accountId": "baidu-bcc-001"
+         }
+    },
+    "spec": {
+        "lifecycle": {
+                    "startInstanceRequest": {
+                        "instanceId": "i-bp1dkdcnxsz2p5umt53k"
+                    }
+                },
+        "nodeName": "cloud.ali3",
+        "type": "BaiduVM"
+    }
+}
