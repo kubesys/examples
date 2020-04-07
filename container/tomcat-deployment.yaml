@@ -1,7 +1,7 @@
-apiVersion: extensions/v1beta1
+apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: tomcat-de
+  name: tomcat
   namespace: default
   labels:
     app: tomcat
@@ -16,6 +16,6 @@ spec:
         app: tomcat
     spec:
       containers:
-      - image: tomcat
+      - image: tomcat:8-jdk8-corretto
         imagePullPolicy: IfNotPresent
         name: tomcat
