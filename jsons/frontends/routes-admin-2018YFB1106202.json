@@ -1,0 +1,214 @@
+{
+	"apiVersion": "doslab.io/v1",
+	"kind": "Frontend",
+	"metadata": {
+		"name": "routes-admin",
+		"namespace": "default"
+	},
+	"spec": {
+		"routes": [{
+				"children": [{
+						"children": [{
+								"component": "/table/index",
+								"meta": {
+									"icon": "resources",
+									"title": "物理主机"
+								},
+								"name": "Node",
+								"path": "node"
+							},
+                                                        {
+                                                        "component": "/schedule/schedule",
+                                                        "meta": {
+                                                                "icon": "node",
+                                                                "title": "调度原理"
+                                                        },
+                                                        "name": "Schedule",
+                                                        "path": "schedule"
+                                                        },
+                                                        {
+                                                        "component": "/table/index",
+                                                        "meta": {
+                                                                "icon": "node",
+                                                                "title": "虚拟机"
+                                                        },
+                                                        "name": "VirtualMachine",
+                                                        "path": "virtualmachines"
+                                                        },
+							{
+								"component": "/table/index",
+								"meta": {
+									"icon": "resources",
+									"title": "命名空间"
+								},
+								"name": "Namespace",
+								"path": "namespace"
+							}
+						],
+						"component": "Layout",
+						"meta": {
+							"icon": "resources",
+							"title": "系统管理"
+						},
+						"path": "resourcesPanel"
+					},
+					{
+						"children": [{
+								"component": "/table/index",
+								"meta": {
+									"icon": "example",
+									"title": "用户信息"
+								},
+								"name": "User",
+								"path": "user"
+							},
+							{
+								"component": "/table/index",
+								"meta": {
+									"icon": "eye",
+									"title": "用户角色"
+								},
+								"name": "UserRole",
+								"path": "userrole"
+							}
+						],
+						"component": "Layout",
+						"meta": {
+							"icon": "resources",
+							"title": "权限管理"
+						},
+						"path": "userPanel"
+					},
+					{
+						"children": [{
+							"component": "/table/index",
+							"meta": {
+								"icon": "eye-open",
+								"title": "系统日志"
+							},
+							"name": "Log",
+							"path": "log"
+						}],
+						"component": "Layout",
+						"meta": {
+							"icon": "resources",
+							"title": "运维管理"
+						},
+						"path": "opsPanel"
+					}
+				],
+				"component": "Base",
+				"meta": {
+					"icon": "routes",
+					"title": "系统配置"
+				},
+				"path": "/systemConfig"
+			},
+			{
+				"children": [{
+					"children": [{
+							"component": "/table/index",
+							"meta": {
+								"icon": "eye",
+								"title": "物理主机"
+							},
+							"name": "Node",
+							"path": "node"
+						},
+						{
+							"component": "/table/index",
+							"meta": {
+								"icon": "eye",
+								"title": "二层vlan"
+							},
+							"name": "Vlan",
+							"path": "vlan"
+						}, {
+							"component": "/table/index",
+							"meta": {
+								"icon": "eye",
+								"title": "三层gre"
+							},
+							"name": "Vpc",
+							"path": "vpc"
+						},
+						{
+							"component": "/table/index",
+							"meta": {
+								"icon": "eye",
+								"title": "容器网络"
+							},
+							"name": "Subnet",
+							"path": "subnet"
+						}
+					], 
+					"component": "Layout",
+					"meta": {
+						"icon": "resources",
+						"title": "私有云-容器"
+					},
+					"path": "resources"
+				}],
+				"component": "Base",
+				"meta": {
+					"icon": "routes",
+					"title": "资源管理"
+				},
+				"path": "/resMgr"
+			},
+			{
+				"children": [{
+					"children": [{
+							"component": "/table/index",
+							"meta": {
+								"icon": "eye",
+								"title": "Pod"
+							},
+							"name": "Pod",
+							"path": "pod"
+						},
+						{
+							"component": "/table/index",
+							"meta": {
+								"icon": "eye",
+								"title": "ReplicaSet"
+							},
+							"name": "ReplicaSet",
+							"path": "replicaset"
+						},
+						{
+							"component": "/table/index",
+							"meta": {
+								"icon": "eye",
+								"title": "DaemonSet"
+							},
+							"name": "DaemonSet",
+							"path": "daemonset"
+						},
+						{
+							"component": "/table/index",
+							"meta": {
+								"icon": "eye",
+								"title": "Deployment"
+							},
+							"name": "Deployment",
+							"path": "deployment"
+						}
+					],
+					"component": "Layout",
+					"meta": {
+						"icon": "resources",
+						"title": "典型负载"
+					},
+					"path": "workloads"
+				}],
+				"component": "Base",
+				"meta": {
+					"icon": "routes",
+					"title": "应用管理"
+				},
+				"path": "/appMgr"
+			}
+		]
+	}
+}

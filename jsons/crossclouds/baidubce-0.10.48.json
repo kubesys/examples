@@ -1,0 +1,722 @@
+{
+  "apiVersion" : "doslab.io/v1",
+  "kind" : "Template",
+  "metadata" : {
+    "name" : "baidubce-0.10.48"
+  },
+  "spec" : {
+    "getimagerequest" : {
+      "apiVersion" : "doslab.io/v1",
+      "kind" : "Crosscloud",
+      "metadata" : {
+        "name" : "baidubce-0.10.48-getimagerequest"
+      },
+      "type" : "BaiduBCE",
+      "spec" : {
+        "getImageRequest" : {
+          "lifecycle" : {
+            "getImageRequest" : {
+              "imageId" : "String"
+            }
+          }
+        }
+      }
+    },
+    "createsecuritygrouprequest" : {
+      "apiVersion" : "doslab.io/v1",
+      "kind" : "Crosscloud",
+      "metadata" : {
+        "name" : "baidubce-0.10.48-createsecuritygrouprequest"
+      },
+      "type" : "BaiduBCE",
+      "spec" : {
+        "createSecurityGroupRequest" : {
+          "lifecycle" : {
+            "createSecurityGroupRequest" : {
+              "clientToken" : "String",
+              "name" : "String",
+              "vpcId" : "String",
+              "desc" : "String"
+            }
+          }
+        }
+      }
+    },
+    "listinstancespecsrequest" : {
+      "apiVersion" : "doslab.io/v1",
+      "kind" : "Crosscloud",
+      "metadata" : {
+        "name" : "baidubce-0.10.48-listinstancespecsrequest"
+      },
+      "type" : "BaiduBCE",
+      "spec" : {
+        "listInstanceSpecsRequest" : {
+          "lifecycle" : {
+            "listInstanceSpecsRequest" : { }
+          }
+        }
+      }
+    },
+    "bindtagsrequest" : {
+      "apiVersion" : "doslab.io/v1",
+      "kind" : "Crosscloud",
+      "metadata" : {
+        "name" : "baidubce-0.10.48-bindtagsrequest"
+      },
+      "type" : "BaiduBCE",
+      "spec" : {
+        "bindTagsRequest" : {
+          "lifecycle" : {
+            "bindTagsRequest" : {
+              "instanceId" : "String"
+            }
+          }
+        }
+      }
+    },
+    "bindsecuritygrouprequest" : {
+      "apiVersion" : "doslab.io/v1",
+      "kind" : "Crosscloud",
+      "metadata" : {
+        "name" : "baidubce-0.10.48-bindsecuritygrouprequest"
+      },
+      "type" : "BaiduBCE",
+      "spec" : {
+        "bindSecurityGroupRequest" : {
+          "lifecycle" : {
+            "bindSecurityGroupRequest" : {
+              "instanceId" : "String",
+              "securityGroupId" : "String"
+            }
+          }
+        }
+      }
+    },
+    "getvolumerequest" : {
+      "apiVersion" : "doslab.io/v1",
+      "kind" : "Crosscloud",
+      "metadata" : {
+        "name" : "baidubce-0.10.48-getvolumerequest"
+      },
+      "type" : "BaiduBCE",
+      "spec" : {
+        "getVolumeRequest" : {
+          "lifecycle" : {
+            "getVolumeRequest" : {
+              "volumeId" : "String"
+            }
+          }
+        }
+      }
+    },
+    "releasevolumerequest" : {
+      "apiVersion" : "doslab.io/v1",
+      "kind" : "Crosscloud",
+      "metadata" : {
+        "name" : "baidubce-0.10.48-releasevolumerequest"
+      },
+      "type" : "BaiduBCE",
+      "spec" : {
+        "releaseVolumeRequest" : {
+          "lifecycle" : {
+            "releaseVolumeRequest" : {
+              "volumeId" : "String"
+            }
+          }
+        }
+      }
+    },
+    "listimagesrequest" : {
+      "apiVersion" : "doslab.io/v1",
+      "kind" : "Crosscloud",
+      "metadata" : {
+        "name" : "baidubce-0.10.48-listimagesrequest"
+      },
+      "type" : "BaiduBCE",
+      "spec" : {
+        "listImagesRequest" : {
+          "lifecycle" : {
+            "listImagesRequest" : {
+              "imageType" : "String"
+            }
+          }
+        }
+      }
+    },
+    "listsnapshotsrequest" : {
+      "apiVersion" : "doslab.io/v1",
+      "kind" : "Crosscloud",
+      "metadata" : {
+        "name" : "baidubce-0.10.48-listsnapshotsrequest"
+      },
+      "type" : "BaiduBCE",
+      "spec" : {
+        "listSnapshotsRequest" : {
+          "lifecycle" : {
+            "listSnapshotsRequest" : {
+              "volumeId" : "String"
+            }
+          }
+        }
+      }
+    },
+    "purchasereservedinstancerequeset" : {
+      "apiVersion" : "doslab.io/v1",
+      "kind" : "Crosscloud",
+      "metadata" : {
+        "name" : "baidubce-0.10.48-purchasereservedinstancerequeset"
+      },
+      "type" : "BaiduBCE",
+      "spec" : {
+        "purchaseReservedInstanceRequeset" : {
+          "lifecycle" : {
+            "purchaseReservedInstanceRequeset" : {
+              "clientToken" : "String",
+              "instanceId" : "String"
+            }
+          }
+        }
+      }
+    },
+    "unbindtagsrequest" : {
+      "apiVersion" : "doslab.io/v1",
+      "kind" : "Crosscloud",
+      "metadata" : {
+        "name" : "baidubce-0.10.48-unbindtagsrequest"
+      },
+      "type" : "BaiduBCE",
+      "spec" : {
+        "unbindTagsRequest" : {
+          "lifecycle" : {
+            "unbindTagsRequest" : {
+              "instanceId" : "String"
+            }
+          }
+        }
+      }
+    },
+    "modifyinstanceattributesrequest" : {
+      "apiVersion" : "doslab.io/v1",
+      "kind" : "Crosscloud",
+      "metadata" : {
+        "name" : "baidubce-0.10.48-modifyinstanceattributesrequest"
+      },
+      "type" : "BaiduBCE",
+      "spec" : {
+        "modifyInstanceAttributesRequest" : {
+          "lifecycle" : {
+            "modifyInstanceAttributesRequest" : {
+              "instanceId" : "String",
+              "name" : "String"
+            }
+          }
+        }
+      }
+    },
+    "createvolumerequest" : {
+      "apiVersion" : "doslab.io/v1",
+      "kind" : "Crosscloud",
+      "metadata" : {
+        "name" : "baidubce-0.10.48-createvolumerequest"
+      },
+      "type" : "BaiduBCE",
+      "spec" : {
+        "createVolumeRequest" : {
+          "lifecycle" : {
+            "createVolumeRequest" : {
+              "clientToken" : "String",
+              "purchaseCount" : 1,
+              "cdsSizeInGB" : 1,
+              "storageType" : "String",
+              "snapshotId" : "String",
+              "zoneName" : "String"
+            }
+          }
+        }
+      }
+    },
+    "listvolumesrequest" : {
+      "apiVersion" : "doslab.io/v1",
+      "kind" : "Crosscloud",
+      "metadata" : {
+        "name" : "baidubce-0.10.48-listvolumesrequest"
+      },
+      "type" : "BaiduBCE",
+      "spec" : {
+        "listVolumesRequest" : {
+          "lifecycle" : {
+            "listVolumesRequest" : {
+              "instanceId" : "String",
+              "zoneName" : "String"
+            }
+          }
+        }
+      }
+    },
+    "listsecuritygroupsrequest" : {
+      "apiVersion" : "doslab.io/v1",
+      "kind" : "Crosscloud",
+      "metadata" : {
+        "name" : "baidubce-0.10.48-listsecuritygroupsrequest"
+      },
+      "type" : "BaiduBCE",
+      "spec" : {
+        "listSecurityGroupsRequest" : {
+          "lifecycle" : {
+            "listSecurityGroupsRequest" : {
+              "instanceId" : "String",
+              "vpcId" : "String"
+            }
+          }
+        }
+      }
+    },
+    "getinstancerequest" : {
+      "apiVersion" : "doslab.io/v1",
+      "kind" : "Crosscloud",
+      "metadata" : {
+        "name" : "baidubce-0.10.48-getinstancerequest"
+      },
+      "type" : "BaiduBCE",
+      "spec" : {
+        "getInstanceRequest" : {
+          "lifecycle" : {
+            "getInstanceRequest" : {
+              "instanceId" : "String"
+            }
+          }
+        }
+      }
+    },
+    "startinstancerequest" : {
+      "apiVersion" : "doslab.io/v1",
+      "kind" : "Crosscloud",
+      "metadata" : {
+        "name" : "baidubce-0.10.48-startinstancerequest"
+      },
+      "type" : "BaiduBCE",
+      "spec" : {
+        "startInstanceRequest" : {
+          "lifecycle" : {
+            "startInstanceRequest" : {
+              "instanceId" : "String"
+            }
+          }
+        }
+      }
+    },
+    "createsnapshotrequest" : {
+      "apiVersion" : "doslab.io/v1",
+      "kind" : "Crosscloud",
+      "metadata" : {
+        "name" : "baidubce-0.10.48-createsnapshotrequest"
+      },
+      "type" : "BaiduBCE",
+      "spec" : {
+        "createSnapshotRequest" : {
+          "lifecycle" : {
+            "createSnapshotRequest" : {
+              "clientToken" : "String",
+              "volumeId" : "String",
+              "snapshotName" : "String",
+              "desc" : "String"
+            }
+          }
+        }
+      }
+    },
+    "getinstancevncrequest" : {
+      "apiVersion" : "doslab.io/v1",
+      "kind" : "Crosscloud",
+      "metadata" : {
+        "name" : "baidubce-0.10.48-getinstancevncrequest"
+      },
+      "type" : "BaiduBCE",
+      "spec" : {
+        "getInstanceVncRequest" : {
+          "lifecycle" : {
+            "getInstanceVncRequest" : {
+              "instanceId" : "String"
+            }
+          }
+        }
+      }
+    },
+    "listinstancesrequest" : {
+      "apiVersion" : "doslab.io/v1",
+      "kind" : "Crosscloud",
+      "metadata" : {
+        "name" : "baidubce-0.10.48-listinstancesrequest"
+      },
+      "type" : "BaiduBCE",
+      "spec" : {
+        "listInstancesRequest" : {
+          "lifecycle" : {
+            "listInstancesRequest" : {
+              "internalIp" : "String",
+              "dedicatedHostId" : "String",
+              "zoneName" : "String"
+            }
+          }
+        }
+      }
+    },
+    "getsnapshotrequest" : {
+      "apiVersion" : "doslab.io/v1",
+      "kind" : "Crosscloud",
+      "metadata" : {
+        "name" : "baidubce-0.10.48-getsnapshotrequest"
+      },
+      "type" : "BaiduBCE",
+      "spec" : {
+        "getSnapshotRequest" : {
+          "lifecycle" : {
+            "getSnapshotRequest" : {
+              "snapshotId" : "String"
+            }
+          }
+        }
+      }
+    },
+    "createinstancerequest" : {
+      "apiVersion" : "doslab.io/v1",
+      "kind" : "Crosscloud",
+      "metadata" : {
+        "name" : "baidubce-0.10.48-createinstancerequest"
+      },
+      "type" : "BaiduBCE",
+      "spec" : {
+        "createInstanceRequest" : {
+          "lifecycle" : {
+            "createInstanceRequest" : {
+              "clientToken" : "String",
+              "instanceType" : "String",
+              "cpuCount" : 1,
+              "memoryCapacityInGB" : 1,
+              "localDiskSizeInGB" : 1,
+              "imageId" : "String",
+              "networkCapacityInMbps" : 1,
+              "purchaseCount" : 1,
+              "name" : "String",
+              "adminPass" : "String",
+              "relationTag" : true,
+              "dedicatedHostId" : "String",
+              "zoneName" : "String",
+              "subnetId" : "String",
+              "securityGroupId" : "String",
+              "cardCount" : 1
+            }
+          }
+        }
+      }
+    },
+    "rebootinstancerequest" : {
+      "apiVersion" : "doslab.io/v1",
+      "kind" : "Crosscloud",
+      "metadata" : {
+        "name" : "baidubce-0.10.48-rebootinstancerequest"
+      },
+      "type" : "BaiduBCE",
+      "spec" : {
+        "rebootInstanceRequest" : {
+          "lifecycle" : {
+            "rebootInstanceRequest" : {
+              "instanceId" : "String",
+              "forceStop" : true
+            }
+          }
+        }
+      }
+    },
+    "createimagerequest" : {
+      "apiVersion" : "doslab.io/v1",
+      "kind" : "Crosscloud",
+      "metadata" : {
+        "name" : "baidubce-0.10.48-createimagerequest"
+      },
+      "type" : "BaiduBCE",
+      "spec" : {
+        "createImageRequest" : {
+          "lifecycle" : {
+            "createImageRequest" : {
+              "clientToken" : "String",
+              "imageName" : "String",
+              "instanceId" : "String",
+              "snapshotId" : "String"
+            }
+          }
+        }
+      }
+    },
+    "attachvolumerequest" : {
+      "apiVersion" : "doslab.io/v1",
+      "kind" : "Crosscloud",
+      "metadata" : {
+        "name" : "baidubce-0.10.48-attachvolumerequest"
+      },
+      "type" : "BaiduBCE",
+      "spec" : {
+        "attachVolumeRequest" : {
+          "lifecycle" : {
+            "attachVolumeRequest" : {
+              "volumeId" : "String",
+              "instanceId" : "String"
+            }
+          }
+        }
+      }
+    },
+    "detachvolumerequest" : {
+      "apiVersion" : "doslab.io/v1",
+      "kind" : "Crosscloud",
+      "metadata" : {
+        "name" : "baidubce-0.10.48-detachvolumerequest"
+      },
+      "type" : "BaiduBCE",
+      "spec" : {
+        "detachVolumeRequest" : {
+          "lifecycle" : {
+            "detachVolumeRequest" : {
+              "volumeId" : "String",
+              "instanceId" : "String"
+            }
+          }
+        }
+      }
+    },
+    "rebuildinstancerequest" : {
+      "apiVersion" : "doslab.io/v1",
+      "kind" : "Crosscloud",
+      "metadata" : {
+        "name" : "baidubce-0.10.48-rebuildinstancerequest"
+      },
+      "type" : "BaiduBCE",
+      "spec" : {
+        "rebuildInstanceRequest" : {
+          "lifecycle" : {
+            "rebuildInstanceRequest" : {
+              "instanceId" : "String",
+              "imageId" : "String",
+              "adminPass" : "String"
+            }
+          }
+        }
+      }
+    },
+    "deletesnapshotrequest" : {
+      "apiVersion" : "doslab.io/v1",
+      "kind" : "Crosscloud",
+      "metadata" : {
+        "name" : "baidubce-0.10.48-deletesnapshotrequest"
+      },
+      "type" : "BaiduBCE",
+      "spec" : {
+        "deleteSnapshotRequest" : {
+          "lifecycle" : {
+            "deleteSnapshotRequest" : {
+              "snapshotId" : "String"
+            }
+          }
+        }
+      }
+    },
+    "deleteimagerequest" : {
+      "apiVersion" : "doslab.io/v1",
+      "kind" : "Crosscloud",
+      "metadata" : {
+        "name" : "baidubce-0.10.48-deleteimagerequest"
+      },
+      "type" : "BaiduBCE",
+      "spec" : {
+        "deleteImageRequest" : {
+          "lifecycle" : {
+            "deleteImageRequest" : {
+              "imageId" : "String"
+            }
+          }
+        }
+      }
+    },
+    "purchasereservedvolumerequest" : {
+      "apiVersion" : "doslab.io/v1",
+      "kind" : "Crosscloud",
+      "metadata" : {
+        "name" : "baidubce-0.10.48-purchasereservedvolumerequest"
+      },
+      "type" : "BaiduBCE",
+      "spec" : {
+        "purchaseReservedVolumeRequest" : {
+          "lifecycle" : {
+            "purchaseReservedVolumeRequest" : {
+              "clientToken" : "String",
+              "volumeId" : "String"
+            }
+          }
+        }
+      }
+    },
+    "rollbackvolumerequest" : {
+      "apiVersion" : "doslab.io/v1",
+      "kind" : "Crosscloud",
+      "metadata" : {
+        "name" : "baidubce-0.10.48-rollbackvolumerequest"
+      },
+      "type" : "BaiduBCE",
+      "spec" : {
+        "rollbackVolumeRequest" : {
+          "lifecycle" : {
+            "rollbackVolumeRequest" : {
+              "volumeId" : "String",
+              "snapshotId" : "String"
+            }
+          }
+        }
+      }
+    },
+    "modifyinstancepasswordrequest" : {
+      "apiVersion" : "doslab.io/v1",
+      "kind" : "Crosscloud",
+      "metadata" : {
+        "name" : "baidubce-0.10.48-modifyinstancepasswordrequest"
+      },
+      "type" : "BaiduBCE",
+      "spec" : {
+        "modifyInstancePasswordRequest" : {
+          "lifecycle" : {
+            "modifyInstancePasswordRequest" : {
+              "instanceId" : "String",
+              "adminPass" : "String"
+            }
+          }
+        }
+      }
+    },
+    "releaseinstancerequest" : {
+      "apiVersion" : "doslab.io/v1",
+      "kind" : "Crosscloud",
+      "metadata" : {
+        "name" : "baidubce-0.10.48-releaseinstancerequest"
+      },
+      "type" : "BaiduBCE",
+      "spec" : {
+        "releaseInstanceRequest" : {
+          "lifecycle" : {
+            "releaseInstanceRequest" : {
+              "instanceId" : "String"
+            }
+          }
+        }
+      }
+    },
+    "stopinstancerequest" : {
+      "apiVersion" : "doslab.io/v1",
+      "kind" : "Crosscloud",
+      "metadata" : {
+        "name" : "baidubce-0.10.48-stopinstancerequest"
+      },
+      "type" : "BaiduBCE",
+      "spec" : {
+        "stopInstanceRequest" : {
+          "lifecycle" : {
+            "stopInstanceRequest" : {
+              "instanceId" : "String",
+              "forceStop" : true
+            }
+          }
+        }
+      }
+    },
+    "deletesecuritygrouprequest" : {
+      "apiVersion" : "doslab.io/v1",
+      "kind" : "Crosscloud",
+      "metadata" : {
+        "name" : "baidubce-0.10.48-deletesecuritygrouprequest"
+      },
+      "type" : "BaiduBCE",
+      "spec" : {
+        "deleteSecurityGroupRequest" : {
+          "lifecycle" : {
+            "deleteSecurityGroupRequest" : {
+              "securityGroupId" : "String"
+            }
+          }
+        }
+      }
+    },
+    "unbindsecuritygrouprequest" : {
+      "apiVersion" : "doslab.io/v1",
+      "kind" : "Crosscloud",
+      "metadata" : {
+        "name" : "baidubce-0.10.48-unbindsecuritygrouprequest"
+      },
+      "type" : "BaiduBCE",
+      "spec" : {
+        "unbindSecurityGroupRequest" : {
+          "lifecycle" : {
+            "unbindSecurityGroupRequest" : {
+              "instanceId" : "String",
+              "securityGroupId" : "String"
+            }
+          }
+        }
+      }
+    },
+    "resizevolumerequest" : {
+      "apiVersion" : "doslab.io/v1",
+      "kind" : "Crosscloud",
+      "metadata" : {
+        "name" : "baidubce-0.10.48-resizevolumerequest"
+      },
+      "type" : "BaiduBCE",
+      "spec" : {
+        "resizeVolumeRequest" : {
+          "lifecycle" : {
+            "resizeVolumeRequest" : {
+              "clientToken" : "String",
+              "volumeId" : "String",
+              "newCdsSizeInGB" : 1
+            }
+          }
+        }
+      }
+    },
+    "resizeinstancerequest" : {
+      "apiVersion" : "doslab.io/v1",
+      "kind" : "Crosscloud",
+      "metadata" : {
+        "name" : "baidubce-0.10.48-resizeinstancerequest"
+      },
+      "type" : "BaiduBCE",
+      "spec" : {
+        "resizeInstanceRequest" : {
+          "lifecycle" : {
+            "resizeInstanceRequest" : {
+              "clientToken" : "String",
+              "instanceId" : "String",
+              "cpuCount" : 1,
+              "memoryCapacityInGB" : 1
+            }
+          }
+        }
+      }
+    },
+    "securitygroupruleoperaterequest" : {
+      "apiVersion" : "doslab.io/v1",
+      "kind" : "Crosscloud",
+      "metadata" : {
+        "name" : "baidubce-0.10.48-securitygroupruleoperaterequest"
+      },
+      "type" : "BaiduBCE",
+      "spec" : {
+        "securityGroupRuleOperateRequest" : {
+          "lifecycle" : {
+            "securityGroupRuleOperateRequest" : {
+              "clientToken" : "String",
+              "securityGroupId" : "String"
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,453 @@
+{
+  "apiVersion" : "doslab.io/v1",
+  "kind" : "Template",
+  "metadata" : {
+    "name" : "jdcloudvm-0.6.1"
+  },
+  "spec" : {
+    "rebootinstancerequest" : {
+      "apiVersion" : "doslab.io/v1",
+      "kind" : "Crosscloud",
+      "metadata" : {
+        "name" : "jdcloudvm-0.6.1-rebootinstancerequest"
+      },
+      "type" : "JDCloudVM",
+      "spec" : {
+        "rebootInstanceRequest" : {
+          "lifecycle" : {
+            "rebootInstanceRequest" : {
+              "regionId" : "String",
+              "instanceId" : "String"
+            }
+          }
+        }
+      }
+    },
+    "describeinstancetypesrequest" : {
+      "apiVersion" : "doslab.io/v1",
+      "kind" : "Crosscloud",
+      "metadata" : {
+        "name" : "jdcloudvm-0.6.1-describeinstancetypesrequest"
+      },
+      "type" : "JDCloudVM",
+      "spec" : {
+        "describeInstanceTypesRequest" : {
+          "lifecycle" : {
+            "describeInstanceTypesRequest" : {
+              "regionId" : "String"
+            }
+          }
+        }
+      }
+    },
+    "createimagerequest" : {
+      "apiVersion" : "doslab.io/v1",
+      "kind" : "Crosscloud",
+      "metadata" : {
+        "name" : "jdcloudvm-0.6.1-createimagerequest"
+      },
+      "type" : "JDCloudVM",
+      "spec" : {
+        "createImageRequest" : {
+          "lifecycle" : {
+            "createImageRequest" : {
+              "name" : "String",
+              "description" : "String",
+              "regionId" : "String",
+              "instanceId" : "String"
+            }
+          }
+        }
+      }
+    },
+    "describeimagesrequest" : {
+      "apiVersion" : "doslab.io/v1",
+      "kind" : "Crosscloud",
+      "metadata" : {
+        "name" : "jdcloudvm-0.6.1-describeimagesrequest"
+      },
+      "type" : "JDCloudVM",
+      "spec" : {
+        "describeImagesRequest" : {
+          "lifecycle" : {
+            "describeImagesRequest" : {
+              "imageSource" : "String",
+              "platform" : "String",
+              "regionId" : "String"
+            }
+          }
+        }
+      }
+    },
+    "unshareimagerequest" : {
+      "apiVersion" : "doslab.io/v1",
+      "kind" : "Crosscloud",
+      "metadata" : {
+        "name" : "jdcloudvm-0.6.1-unshareimagerequest"
+      },
+      "type" : "JDCloudVM",
+      "spec" : {
+        "unShareImageRequest" : {
+          "lifecycle" : {
+            "unShareImageRequest" : {
+              "regionId" : "String",
+              "imageId" : "String"
+            }
+          }
+        }
+      }
+    },
+    "describeimagerequest" : {
+      "apiVersion" : "doslab.io/v1",
+      "kind" : "Crosscloud",
+      "metadata" : {
+        "name" : "jdcloudvm-0.6.1-describeimagerequest"
+      },
+      "type" : "JDCloudVM",
+      "spec" : {
+        "describeImageRequest" : {
+          "lifecycle" : {
+            "describeImageRequest" : {
+              "regionId" : "String",
+              "imageId" : "String"
+            }
+          }
+        }
+      }
+    },
+    "detachdiskrequest" : {
+      "apiVersion" : "doslab.io/v1",
+      "kind" : "Crosscloud",
+      "metadata" : {
+        "name" : "jdcloudvm-0.6.1-detachdiskrequest"
+      },
+      "type" : "JDCloudVM",
+      "spec" : {
+        "detachDiskRequest" : {
+          "lifecycle" : {
+            "detachDiskRequest" : {
+              "diskId" : "String",
+              "force" : true,
+              "regionId" : "String",
+              "instanceId" : "String"
+            }
+          }
+        }
+      }
+    },
+    "disassociateelasticiprequest" : {
+      "apiVersion" : "doslab.io/v1",
+      "kind" : "Crosscloud",
+      "metadata" : {
+        "name" : "jdcloudvm-0.6.1-disassociateelasticiprequest"
+      },
+      "type" : "JDCloudVM",
+      "spec" : {
+        "disassociateElasticIpRequest" : {
+          "lifecycle" : {
+            "disassociateElasticIpRequest" : {
+              "elasticIpId" : "String",
+              "regionId" : "String",
+              "instanceId" : "String"
+            }
+          }
+        }
+      }
+    },
+    "createinstancesrequest" : {
+      "apiVersion" : "doslab.io/v1",
+      "kind" : "Crosscloud",
+      "metadata" : {
+        "name" : "jdcloudvm-0.6.1-createinstancesrequest"
+      },
+      "type" : "JDCloudVM",
+      "spec" : {
+        "createInstancesRequest" : {
+          "lifecycle" : {
+            "createInstancesRequest" : {
+              "maxCount" : 1,
+              "regionId" : "String"
+            }
+          }
+        }
+      }
+    },
+    "describeinstancevncurlrequest" : {
+      "apiVersion" : "doslab.io/v1",
+      "kind" : "Crosscloud",
+      "metadata" : {
+        "name" : "jdcloudvm-0.6.1-describeinstancevncurlrequest"
+      },
+      "type" : "JDCloudVM",
+      "spec" : {
+        "describeInstanceVncUrlRequest" : {
+          "lifecycle" : {
+            "describeInstanceVncUrlRequest" : {
+              "regionId" : "String",
+              "instanceId" : "String"
+            }
+          }
+        }
+      }
+    },
+    "attachdiskrequest" : {
+      "apiVersion" : "doslab.io/v1",
+      "kind" : "Crosscloud",
+      "metadata" : {
+        "name" : "jdcloudvm-0.6.1-attachdiskrequest"
+      },
+      "type" : "JDCloudVM",
+      "spec" : {
+        "attachDiskRequest" : {
+          "lifecycle" : {
+            "attachDiskRequest" : {
+              "diskId" : "String",
+              "deviceName" : "String",
+              "autoDelete" : true,
+              "regionId" : "String",
+              "instanceId" : "String"
+            }
+          }
+        }
+      }
+    },
+    "describeimageconstraintsrequest" : {
+      "apiVersion" : "doslab.io/v1",
+      "kind" : "Crosscloud",
+      "metadata" : {
+        "name" : "jdcloudvm-0.6.1-describeimageconstraintsrequest"
+      },
+      "type" : "JDCloudVM",
+      "spec" : {
+        "describeImageConstraintsRequest" : {
+          "lifecycle" : {
+            "describeImageConstraintsRequest" : {
+              "regionId" : "String",
+              "imageId" : "String"
+            }
+          }
+        }
+      }
+    },
+    "deleteimagerequest" : {
+      "apiVersion" : "doslab.io/v1",
+      "kind" : "Crosscloud",
+      "metadata" : {
+        "name" : "jdcloudvm-0.6.1-deleteimagerequest"
+      },
+      "type" : "JDCloudVM",
+      "spec" : {
+        "deleteImageRequest" : {
+          "lifecycle" : {
+            "deleteImageRequest" : {
+              "regionId" : "String",
+              "imageId" : "String"
+            }
+          }
+        }
+      }
+    },
+    "describeimagemembersrequest" : {
+      "apiVersion" : "doslab.io/v1",
+      "kind" : "Crosscloud",
+      "metadata" : {
+        "name" : "jdcloudvm-0.6.1-describeimagemembersrequest"
+      },
+      "type" : "JDCloudVM",
+      "spec" : {
+        "describeImageMembersRequest" : {
+          "lifecycle" : {
+            "describeImageMembersRequest" : {
+              "regionId" : "String",
+              "imageId" : "String"
+            }
+          }
+        }
+      }
+    },
+    "describequotasrequest" : {
+      "apiVersion" : "doslab.io/v1",
+      "kind" : "Crosscloud",
+      "metadata" : {
+        "name" : "jdcloudvm-0.6.1-describequotasrequest"
+      },
+      "type" : "JDCloudVM",
+      "spec" : {
+        "describeQuotasRequest" : {
+          "lifecycle" : {
+            "describeQuotasRequest" : {
+              "regionId" : "String"
+            }
+          }
+        }
+      }
+    },
+    "associateelasticiprequest" : {
+      "apiVersion" : "doslab.io/v1",
+      "kind" : "Crosscloud",
+      "metadata" : {
+        "name" : "jdcloudvm-0.6.1-associateelasticiprequest"
+      },
+      "type" : "JDCloudVM",
+      "spec" : {
+        "associateElasticIpRequest" : {
+          "lifecycle" : {
+            "associateElasticIpRequest" : {
+              "elasticIpId" : "String",
+              "regionId" : "String",
+              "instanceId" : "String"
+            }
+          }
+        }
+      }
+    },
+    "describeinstancerequest" : {
+      "apiVersion" : "doslab.io/v1",
+      "kind" : "Crosscloud",
+      "metadata" : {
+        "name" : "jdcloudvm-0.6.1-describeinstancerequest"
+      },
+      "type" : "JDCloudVM",
+      "spec" : {
+        "describeInstanceRequest" : {
+          "lifecycle" : {
+            "describeInstanceRequest" : {
+              "regionId" : "String",
+              "instanceId" : "String"
+            }
+          }
+        }
+      }
+    },
+    "modifyinstancepasswordrequest" : {
+      "apiVersion" : "doslab.io/v1",
+      "kind" : "Crosscloud",
+      "metadata" : {
+        "name" : "jdcloudvm-0.6.1-modifyinstancepasswordrequest"
+      },
+      "type" : "JDCloudVM",
+      "spec" : {
+        "modifyInstancePasswordRequest" : {
+          "lifecycle" : {
+            "modifyInstancePasswordRequest" : {
+              "password" : "String",
+              "regionId" : "String",
+              "instanceId" : "String"
+            }
+          }
+        }
+      }
+    },
+    "startinstancerequest" : {
+      "apiVersion" : "doslab.io/v1",
+      "kind" : "Crosscloud",
+      "metadata" : {
+        "name" : "jdcloudvm-0.6.1-startinstancerequest"
+      },
+      "type" : "JDCloudVM",
+      "spec" : {
+        "startInstanceRequest" : {
+          "lifecycle" : {
+            "startInstanceRequest" : {
+              "regionId" : "String",
+              "instanceId" : "String"
+            }
+          }
+        }
+      }
+    },
+    "stopinstancerequest" : {
+      "apiVersion" : "doslab.io/v1",
+      "kind" : "Crosscloud",
+      "metadata" : {
+        "name" : "jdcloudvm-0.6.1-stopinstancerequest"
+      },
+      "type" : "JDCloudVM",
+      "spec" : {
+        "stopInstanceRequest" : {
+          "lifecycle" : {
+            "stopInstanceRequest" : {
+              "regionId" : "String",
+              "instanceId" : "String"
+            }
+          }
+        }
+      }
+    },
+    "modifyinstanceattributerequest" : {
+      "apiVersion" : "doslab.io/v1",
+      "kind" : "Crosscloud",
+      "metadata" : {
+        "name" : "jdcloudvm-0.6.1-modifyinstanceattributerequest"
+      },
+      "type" : "JDCloudVM",
+      "spec" : {
+        "modifyInstanceAttributeRequest" : {
+          "lifecycle" : {
+            "modifyInstanceAttributeRequest" : {
+              "name" : "String",
+              "description" : "String",
+              "regionId" : "String",
+              "instanceId" : "String"
+            }
+          }
+        }
+      }
+    },
+    "deleteinstancerequest" : {
+      "apiVersion" : "doslab.io/v1",
+      "kind" : "Crosscloud",
+      "metadata" : {
+        "name" : "jdcloudvm-0.6.1-deleteinstancerequest"
+      },
+      "type" : "JDCloudVM",
+      "spec" : {
+        "deleteInstanceRequest" : {
+          "lifecycle" : {
+            "deleteInstanceRequest" : {
+              "regionId" : "String",
+              "instanceId" : "String"
+            }
+          }
+        }
+      }
+    },
+    "describeinstancesrequest" : {
+      "apiVersion" : "doslab.io/v1",
+      "kind" : "Crosscloud",
+      "metadata" : {
+        "name" : "jdcloudvm-0.6.1-describeinstancesrequest"
+      },
+      "type" : "JDCloudVM",
+      "spec" : {
+        "describeInstancesRequest" : {
+          "lifecycle" : {
+            "describeInstancesRequest" : {
+              "pageNumber" : 1,
+              "pageSize" : 1,
+              "regionId" : "String"
+            }
+          }
+        }
+      }
+    },
+    "shareimagerequest" : {
+      "apiVersion" : "doslab.io/v1",
+      "kind" : "Crosscloud",
+      "metadata" : {
+        "name" : "jdcloudvm-0.6.1-shareimagerequest"
+      },
+      "type" : "JDCloudVM",
+      "spec" : {
+        "shareImageRequest" : {
+          "lifecycle" : {
+            "shareImageRequest" : {
+              "regionId" : "String",
+              "imageId" : "String"
+            }
+          }
+        }
+      }
+    }
+  }
+}
