@@ -1,0 +1,53 @@
+{
+    "apiVersion": "doslab.io/v1",
+    "kind": "Frontend",
+    "metadata": {
+        "name": "table-image",
+        "namespace": "default"
+    },
+    "spec": {
+        "data": [
+            {
+                "key": 2,
+                "label": "镜像名",
+                "row": "spec.name"
+            },
+            {
+                "key": 3,
+                "label": "镜像Id",
+                "row": "spec.id"
+            },
+            {
+                "key": 4,
+                "label": "镜像父id",
+                "row": "spec.parent"
+            },
+            {
+                "key": 5,
+                "label": "操作系统",
+                "row": "osInfo.name"
+            },
+            {
+                "key": 6,
+                "label": "OS版本",
+                "row": "osInfo.version"
+            },
+            {
+                "key": 7,
+                "label": "体系结构",
+                "row": "spec.arch"
+            },
+            {
+                "key": 8,
+                "label": "镜像时间",
+                "row": "osInfo.localtime"
+            },
+            {
+                "key": 9,
+                "label": "创建时间",
+                "row": "spec.created"
+            }
+        ],
+        "type": "table"
+    }
+}
