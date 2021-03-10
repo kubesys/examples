@@ -1,6 +1,6 @@
 {
 	"metadata":{
-		"name":"desc-component"
+		"name":"desc-doslab.io.component"
 	},
 	"apiVersion":"doslab.io/v1",
 	"kind":"Frontend",

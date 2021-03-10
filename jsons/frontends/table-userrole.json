@@ -2,7 +2,7 @@
     "apiVersion": "doslab.io/v1",
     "kind": "Frontend",
     "metadata": {
-        "name": "table-userrole",
+        "name": "table-doslab.io.userrole",
         "namespace": "default"
     },
     "spec": {
@@ -16,7 +16,7 @@
                 "key": 2,
                 "kind": "internalLink",
                 "label": "包含用户",
-                "link": "User",
+                "link": "doslab.io.User",
                 "row": "@metadata.name",
                 "tag": "spec#role#name"
             },

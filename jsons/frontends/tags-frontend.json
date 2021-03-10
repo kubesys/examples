@@ -1,0 +1,21 @@
+{
+    "apiVersion": "doslab.io/v1",
+    "kind": "Frontend",
+    "metadata": {
+        "name": "tags-doslab.io.frontend",
+        "namespace": "default"
+    },
+    "spec": {
+        "label": "metadata#tag",
+        "tags": [
+            "action",
+            "api",
+            "catalog",
+            "description",
+            "formsearch",
+            "table",
+            "title",
+            "wizard"
+        ]
+    }
+}

@@ -2,7 +2,7 @@
     "apiVersion": "doslab.io/v1",
     "kind": "Frontend",
     "metadata": {
-        "name": "action-user",
+        "name": "action-doslab.io.user",
         "namespace": "default"
     },
     "spec": {

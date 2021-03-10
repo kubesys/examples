@@ -1,6 +1,6 @@
 {
 	"metadata":{
-		"name":"formsearch-doslab.io.log",
+		"name":"formsearch-doslab.io.frontend",
 		"namespace":"default"
 	},
 	"apiVersion":"doslab.io/v1",
@@ -24,7 +24,7 @@
 					"prop":"spec#user",
 					"ph":"",
 					"itemStyle":"display:inline-block;margin-right:10px",
-					"label":"用户名:",
+					"label":"资源名:",
 					"type":"input",
 					"key":1
 				}

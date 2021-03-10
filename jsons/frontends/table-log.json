@@ -2,7 +2,7 @@
 	"metadata":{
 		"finalizers":[],
 		"managedFields":[],
-		"name":"table-log",
+		"name":"table-doslab.io.log",
 		"additionalProperties":{},
 		"ownerReferences":[]
 	},

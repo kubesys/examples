@@ -1,6 +1,6 @@
 {
 	"metadata":{
-		"name":"desc-userrole"
+		"name":"desc-doslab.io.userrole"
 	},
 	"apiVersion":"doslab.io/v1",
 	"kind":"Frontend",

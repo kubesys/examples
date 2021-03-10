@@ -2,7 +2,7 @@
     "apiVersion": "doslab.io/v1",
     "kind": "Frontend",
     "metadata": {
-        "name": "table-component",
+        "name": "table-doslab.io.component",
         "namespace": "default"
     },
     "spec": {

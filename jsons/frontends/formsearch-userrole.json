@@ -2,7 +2,7 @@
     "apiVersion": "doslab.io/v1",
     "kind": "Frontend",
     "metadata": {
-        "name": "formsearch-userrole",
+        "name": "formsearch-doslab.io.userrole",
         "namespace": "default"
     },
     "spec": {

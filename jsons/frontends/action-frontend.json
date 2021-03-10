@@ -1,6 +1,6 @@
 {
 	"metadata":{
-		"name":"action-doslab.io.log"
+		"name":"action-doslab.io.frontend"
 	},
 	"apiVersion":"doslab.io/v1",
 	"kind":"Frontend",
