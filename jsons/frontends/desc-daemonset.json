@@ -1,6 +1,6 @@
 {
 	"metadata":{
-		"name":"desc-daemonset"
+		"name":"desc-apps.daemonset"
 	},
 	"apiVersion":"doslab.io/v1",
 	"kind":"Frontend",

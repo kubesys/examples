@@ -2,7 +2,7 @@
 	"metadata":{
 		"finalizers":[],
 		"managedFields":[],
-		"name":"table-daemonset",
+		"name":"table-apps.daemonset",
 		"additionalProperties":{},
 		"ownerReferences":[]
 	},
@@ -51,7 +51,7 @@
 			{
 				"kind":"action",
 				"width":"130",
-				"label":"Actions",
+				"label":"更多操作",
 				"row":"",
 				"key":7
 			}

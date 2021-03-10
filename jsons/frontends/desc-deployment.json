@@ -1,6 +1,6 @@
 {
 	"metadata":{
-		"name":"desc-deployment"
+		"name":"desc-apps.deployment"
 	},
 	"apiVersion":"doslab.io/v1",
 	"kind":"Frontend",

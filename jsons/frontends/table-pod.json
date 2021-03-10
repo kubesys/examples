@@ -36,7 +36,7 @@
                 "key": 3,
                 "kind": "internalLink",
                 "label": "父类资源",
-                "link": "@metadata.ownerReferences[0].kind",
+                "link": "@metadata.ownerReferences[0].apiVersion+metadata.ownerReferences[0].kind",
                 "row": "metadata.ownerReferences[0].kind",
                 "width": "150"
             },
@@ -44,7 +44,7 @@
                 "key": 9,
                 "kind": "internalLink",
                 "label": "父类资源名",
-                "link": "@metadata.ownerReferences[0].kind",
+                "link": "@metadata.ownerReferences[0].apiVersion+metadata.ownerReferences[0].kind",
                 "row": "metadata.ownerReferences[0].name",
                 "tag": "metadata#name",
                 "width": "150"

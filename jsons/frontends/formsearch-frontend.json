@@ -15,13 +15,13 @@
 			},
 			"icon":"el-icon-search",
 			"model":{
-				"spec#user":""
+				"metadata#name":""
 			},
 			"title":"查询",
 			"items":[
 				{
 					"drop":true,
-					"prop":"spec#user",
+					"prop":"metadata#name",
 					"ph":"",
 					"itemStyle":"display:inline-block;margin-right:10px",
 					"label":"资源名:",

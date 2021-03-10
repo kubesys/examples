@@ -18,7 +18,7 @@
                     "drop": true,
                     "itemStyle": "display:inline-block;margin-right:10px",
                     "key": 1,
-                    "label": "角色名:",
+                    "label": "组件名:",
                     "ph": "",
                     "prop": "metadata#name",
                     "type": "input"

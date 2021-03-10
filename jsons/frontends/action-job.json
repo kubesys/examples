@@ -2,7 +2,7 @@
 	"metadata":{
 		"finalizers":[],
 		"managedFields":[],
-		"name":"action-job",
+		"name":"action-batch.job",
 		"additionalProperties":{},
 		"ownerReferences":[]
 	},

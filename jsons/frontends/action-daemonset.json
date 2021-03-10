@@ -2,7 +2,7 @@
 	"metadata":{
 		"finalizers":[],
 		"managedFields":[],
-		"name":"action-daemonset",
+		"name":"action-apps.daemonset",
 		"additionalProperties":{},
 		"ownerReferences":[]
 	},

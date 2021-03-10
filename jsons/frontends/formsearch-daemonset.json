@@ -1,6 +1,6 @@
 {
 	"metadata":{
-		"name":"formsearch-daemonset",
+		"name":"formsearch-apps.daemonset",
 		"namespace":"default"
 	},
 	"apiVersion":"doslab.io/v1",

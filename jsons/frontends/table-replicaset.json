@@ -2,7 +2,7 @@
 	"metadata":{
 		"finalizers":[],
 		"managedFields":[],
-		"name":"table-replicaset",
+		"name":"table-apps.replicaset",
 		"additionalProperties":{},
 		"ownerReferences":[]
 	},

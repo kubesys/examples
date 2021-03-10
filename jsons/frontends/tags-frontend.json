@@ -6,7 +6,7 @@
         "namespace": "default"
     },
     "spec": {
-        "label": "metadata#tag",
+        "label": "spec#type",
         "tags": [
             "action",
             "api",

@@ -1,6 +1,6 @@
 {
 	"metadata":{
-		"name":"formsearch-job",
+		"name":"formsearch-batch.job",
 		"namespace":"default"
 	},
 	"apiVersion":"doslab.io/v1",

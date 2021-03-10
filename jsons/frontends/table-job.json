@@ -2,7 +2,7 @@
 	"metadata":{
 		"finalizers":[],
 		"managedFields":[],
-		"name":"table-job",
+		"name":"table-batch.job",
 		"additionalProperties":{},
 		"ownerReferences":[]
 	},
@@ -11,12 +11,13 @@
 	"spec":{
 		"data":[
 			{
-				"kind":"a",
+				"kind":"internalLink",
 				"width":"200",
-				"link":"/profile/taskProfile",
+				"link":"Pod",
 				"style":"width:150px;",
 				"label":"Job名",
 				"row":"metadata.name",
+                                "tag": "metadata#name",
 				"type":"input",
 				"key":1
 			},
@@ -47,7 +48,7 @@
 			{
 				"kind":"action",
 				"width":"130",
-				"label":"Actions",
+				"label":"更多操作",
 				"row":"",
 				"key":7
 			}

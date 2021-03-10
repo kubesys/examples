@@ -1,6 +1,6 @@
 {
 	"metadata":{
-		"name":"desc-replicaset"
+		"name":"desc-apps.replicaset"
 	},
 	"apiVersion":"doslab.io/v1",
 	"kind":"Frontend",

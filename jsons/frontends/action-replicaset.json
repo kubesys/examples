@@ -2,7 +2,7 @@
 	"metadata":{
 		"finalizers":[],
 		"managedFields":[],
-		"name":"action-replicaset",
+		"name":"action-apps.replicaset",
 		"additionalProperties":{},
 		"ownerReferences":[]
 	},

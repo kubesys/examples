@@ -2,7 +2,7 @@
     "apiVersion": "doslab.io/v1",
     "kind": "Frontend",
     "metadata": {
-        "name": "action-deployment",
+        "name": "action-apps.deployment",
         "namespace": "default"
     },
     "spec": {

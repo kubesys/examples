@@ -1,6 +1,6 @@
 {
 	"metadata":{
-		"name":"formsearch-replicaset",
+		"name":"formsearch-apps.replicaset",
 		"namespace":"default"
 	},
 	"apiVersion":"doslab.io/v1",
